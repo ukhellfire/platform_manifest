@@ -12,6 +12,14 @@
            fetch="https://github.com/"
            review="gerrit.aicp-rom.com"
            revision="mm6.0" />
+           
+  <remote name="afaulkner420"
+           fetch="https://github.com/"
+           revision="mm6.0" />  
+           
+  <remote name="ukhellfire"
+           fetch="https://github.com/"
+           revision="mm6.0" />          
 
   <remote  name="cm"
            fetch="https://github.com/"
