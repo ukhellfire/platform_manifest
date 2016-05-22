@@ -285,37 +285,34 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
 
   <!-- AICP custom -->
-  <project path="build" name="AICP/build" remote="aicp" >
+  <project path="build" name="ukhellfire/build" remote="ukhellfire" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
-  <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
-  <project path="external/android-snackbar" name="AICP/external_android-snackbar" remote="aicp" />
-  <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
-  <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
-  <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" groups="pdk" remote="aicp" />
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
-  <project path="packages/apps/InCallUI" name="AICP/packages_apps_InCallUI" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/LockClock" name="AICP/packages_apps_LockClock" remote="aicp" />
-  <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aicp" />
-  <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" />
-  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
+  <project path="device/qcom/sepolicy" name="ukhellfire/device_qcom_sepolicy" remote="ukhellfire" />
+  <project path="external/sepolicy" name="ukhellfire/external_sepolicy" groups="pdk" remote="ukhellfire" />
+  <project path="external/android-snackbar" name="ukhellfire/external_android-snackbar" remote="ukhellfire" />
+  <project path="external/DUtils" name="ukhellfire/external_DUtils" remote="ukhellfire" />
+  <project path="external/mksh" name="ukhellfire/external_mksh" groups="pdk" remote="ukhellfire" />
+  <project path="frameworks/base" name="ukhellfire/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
+  <project path="frameworks/opt/cards" name="ukhellfire/frameworks_opt_cards" remote="ukhellfire" />
+  <project path="frameworks/opt/telephony" name="ukhellfire/frameworks_opt_telephony" groups="pdk" remote="ukhellfire" />
+  <project path="platform_manifest" name="ukhellfire/platform_manifest" remote="ukhellfire" />
+  <project path="packages/apps/ukhellfire_OTA" name="ukhellfire/packages_apps_ukhellfire_OTA" remote="ukhellfire" />
+  <project path="packages/apps/ukhellfireExtras" name="ukhellfire/packages_apps_ukhellfireExtras" remote="ukhellfire" />
+  <project path="packages/apps/Dialer" name="ukhellfire/packages_apps_Dialer" groups="pdk-fs" remote="ukhellfire" />
+  <project path="packages/apps/DUI" name="ukhellfire/packages_apps_DUI" remote="ukhellfire" />
+  <project path="packages/apps/InCallUI" name="ukhellfire/packages_apps_InCallUI" groups="pdk-fs" remote="ukhellfire" />
+  <project path="packages/apps/LockClock" name="ukhellfire/packages_apps_LockClock" remote="ukhellfire" />
+  <project path="packages/apps/Nfc" name="ukhellfire/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="ukhellfire" />
+  <project path="packages/apps/OmniSwitch" name="ukhellfire/packages_apps_OmniSwitch" remote="ukhellfire" />
+  <project path="packages/apps/Settings" name="ukhellfire/packages_apps_Settings" groups="pdk-fs" remote="ukhellfire" />
+  <project path="packages/apps/SetupWizard" name="ukhellfire/packages_apps_SetupWizard" remote="ukhellfire" />
+  <project path="packages/services/Telephony" name="ukhellfire/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
+  <project path="packages/services/Telecomm" name="ukhellfire/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
+  <project path="system/core" name="ukhellfire/system_core" groups="pdk" remote="ukhellfire" />
+  <project path="vendor/ukhellfire" name="ukhellfire/vendor_ukhellfire" remote="ukhellfire" />
+  <project path="vendor/cmsdk" name="ukhellfire/vendor_cmsdk" remote="ukhellfire" />
   <!-- END AICP -->
-
-  <!-- Anti-piracy support -->
-  <!-- <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" /> -->
 
   <!-- BEGIN AOSP -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
@@ -548,5 +545,10 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" fgroups="pdk" remote="aosp" />
   <!-- END AOSP -->
+  
+  <!-- DEVICE FILES -->
+  <project path="device/huawei/g750t01" name="ukhellfire/device_huawei_g750t01" revision="mm6.0" />
+  <project path="vendor/huawei/g750t01" name="ukhellfire/vendor_huawei_g750t01" revision="mm6.0" />
+  <!-- END DEVICE FILES -->
 
 </manifest>
