@@ -310,7 +310,7 @@
   <project path="packages/services/Telephony" name="ukhellfire/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
   <project path="packages/services/Telecomm" name="ukhellfire/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
   <project path="system/core" name="ukhellfire/system_core" groups="pdk" remote="ukhellfire" />
-  <project path="vendor/ukhellfire" name="ukhellfire/vendor_ukhellfire" remote="ukhellfire" />
+  <project path="vendor/aicp" name="ukhellfire/vendor_aicp" remote="ukhellfire" />
   <project path="vendor/cmsdk" name="ukhellfire/vendor_cmsdk" remote="ukhellfire" />
   <!-- END AICP -->
 
