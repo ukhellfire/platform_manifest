@@ -1,18 +1,20 @@
 [Android Ice Cold Project](http://aicp-rom.com)
 ====================================
+Attempting to create an MTK based AICP repo. At present this is a WIP, and anyone that attempts to sync and build these files,
+will probably, well not probably, but will hit issues! You have been warned!
 
+This only has device and vendor files for the Huawei G750T01 which is a mt6592 based device.
 
 Download the Source
 ===================
 
-Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 Initializing Repository
 -----------------------
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
+    $ repo init -u https://github.com/ukhellfire/platform_manifest.git -b mm6.0
 
 
 sync repo :
@@ -24,16 +26,11 @@ sync repo :
 Building
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+After the sync is finished,
 
-    . build/envsetup.sh
-    brunch
+    source build/envsetup.sh
 
-
-You can also build (and see how long it took) for specific devices like this:
-
-    . build/envsetup.sh
-    time brunch angler
+    brunch cm_g750t01-userdebug
 
 Remember to `make clobber` every now and then!
 
