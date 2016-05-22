@@ -39,7 +39,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
+  <project path="bootable/recovery" name="afaulkner420/android_bootable_recovery" groups="pdk" remote="afaulkner420" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -215,7 +215,7 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" remote="cm" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" remote="cm" />
+  <project path="packages/apps/CMUpdater" name="afaulkner/android_packages_apps_CMUpdater" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="cm" />
@@ -238,7 +238,7 @@
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="cm" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" remote="cm" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" />
+  <project path="packages/apps/Snap" name="afaulkner420/android_packages_apps_Snap" remote="afaulkner420" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="cm" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" remote="cm" />
@@ -274,12 +274,12 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" remote="cm" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" remote="cm" />
-  <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" remote="cm" />
+  <project path="system/bt" name="afaulkner420/android_system_bt" groups="pdk" remote="afaulkner420" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" remote="cm" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="cm" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="cm" />
+  <project path="system/netd" name="afaulkner420/android_system_netd" groups="pdk" remote="afaulkner420" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
@@ -297,8 +297,8 @@
   <project path="frameworks/opt/cards" name="ukhellfire/frameworks_opt_cards" remote="ukhellfire" />
   <project path="frameworks/opt/telephony" name="ukhellfire/frameworks_opt_telephony" groups="pdk" remote="ukhellfire" />
   <project path="platform_manifest" name="ukhellfire/platform_manifest" remote="ukhellfire" />
-  <project path="packages/apps/ukhellfire_OTA" name="ukhellfire/packages_apps_ukhellfire_OTA" remote="ukhellfire" />
-  <project path="packages/apps/ukhellfireExtras" name="ukhellfire/packages_apps_ukhellfireExtras" remote="ukhellfire" />
+  <project path="packages/apps/AICP_OTA" name="ukhellfire/packages_apps_AICP_OTA" remote="ukhellfire" />
+  <project path="packages/apps/AicpExtras" name="ukhellfire/packages_apps_AicpExtras" remote="ukhellfire" />
   <project path="packages/apps/Dialer" name="ukhellfire/packages_apps_Dialer" groups="pdk-fs" remote="ukhellfire" />
   <project path="packages/apps/DUI" name="ukhellfire/packages_apps_DUI" remote="ukhellfire" />
   <project path="packages/apps/InCallUI" name="ukhellfire/packages_apps_InCallUI" groups="pdk-fs" remote="ukhellfire" />
@@ -310,7 +310,7 @@
   <project path="packages/services/Telephony" name="ukhellfire/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
   <project path="packages/services/Telecomm" name="ukhellfire/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
   <project path="system/core" name="ukhellfire/system_core" groups="pdk" remote="ukhellfire" />
-  <project path="vendor/aicp" name="ukhellfire/vendor_aicp" remote="ukhellfire" />
+  <project path="vendor/ukhellfire" name="ukhellfire/vendor_ukhellfire" remote="ukhellfire" />
   <project path="vendor/cmsdk" name="ukhellfire/vendor_cmsdk" remote="ukhellfire" />
   <!-- END AICP -->
 
