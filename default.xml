@@ -555,8 +555,8 @@
   <!-- END AOSP -->
   
   <!-- DEVICE FILES -->
-  <project path="device/huawei/g750t01" name="ukhellfire/device_huawei_g750t01" revision="mm6.0" />
-  <project path="vendor/huawei/g750t01" name="ukhellfire/vendor_huawei_g750t01" revision="mm6.0" />
+  <project path="device/huawei/g750t01" name="ukhellfire/device_huawei_g750t01" remote="ukhellfire" />
+  <project path="vendor/huawei/g750t01" name="ukhellfire/vendor_huawei_g750t01" remote="ukhellfire" />
   <!-- END DEVICE FILES -->
 
 </manifest>
