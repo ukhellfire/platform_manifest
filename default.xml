@@ -294,7 +294,6 @@
   <!-- AICP custom -->
   <project path="build" name="ukhellfire/build" remote="ukhellfire"/>
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="device/qcom/sepolicy" name="ukhellfire/device_qcom_sepolicy" remote="ukhellfire" />
   <project path="external/sepolicy" name="ukhellfire/external_sepolicy" groups="pdk" remote="ukhellfire" />
   <project path="external/android-snackbar" name="ukhellfire/external_android-snackbar" remote="ukhellfire" />
