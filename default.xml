@@ -293,33 +293,33 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
 
   <!-- AICP custom -->
-  <project path="build" name="ukhellfire/build" remote="ukhellfire" >
+  <project path="build" name="ukhellfire/build"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/qcom/sepolicy" name="ukhellfire/device_qcom_sepolicy" remote="ukhellfire" />
-  <project path="external/sepolicy" name="ukhellfire/external_sepolicy" groups="pdk" remote="ukhellfire" />
-  <project path="external/android-snackbar" name="ukhellfire/external_android-snackbar" remote="ukhellfire" />
-  <project path="external/DUtils" name="ukhellfire/external_DUtils" remote="ukhellfire" />
-  <project path="external/mksh" name="ukhellfire/external_mksh" groups="pdk" remote="ukhellfire" />
-  <project path="frameworks/base" name="ukhellfire/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
+  <project path="device/qcom/sepolicy" name="ukhellfire/device_qcom_sepolicy" />
+  <project path="external/sepolicy" name="ukhellfire/external_sepolicy" groups="pdk" />
+  <project path="external/android-snackbar" name="ukhellfire/external_android-snackbar" />
+  <project path="external/DUtils" name="ukhellfire/external_DUtils" />
+  <project path="external/mksh" name="ukhellfire/external_mksh" groups="pdk" />
+  <project path="frameworks/base" name="ukhellfire/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/cards" name="ukhellfire/frameworks_opt_cards" remote="ukhellfire" />
-  <project path="frameworks/opt/telephony" name="ukhellfire/frameworks_opt_telephony" groups="pdk" remote="ukhellfire" />
-  <project path="platform_manifest" name="ukhellfire/platform_manifest" remote="ukhellfire" />
-  <project path="packages/apps/AICP_OTA" name="ukhellfire/packages_apps_AICP_OTA" remote="ukhellfire" />
-  <project path="packages/apps/AicpExtras" name="ukhellfire/packages_apps_AicpExtras" remote="ukhellfire" />
-  <project path="packages/apps/Dialer" name="ukhellfire/packages_apps_Dialer" groups="pdk-fs" remote="ukhellfire" />
-  <project path="packages/apps/DUI" name="ukhellfire/packages_apps_DUI" remote="ukhellfire" />
-  <project path="packages/apps/InCallUI" name="ukhellfire/packages_apps_InCallUI" groups="pdk-fs" remote="ukhellfire" />
-  <project path="packages/apps/LockClock" name="ukhellfire/packages_apps_LockClock" remote="ukhellfire" />
-  <project path="packages/apps/Nfc" name="ukhellfire/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="ukhellfire" />
-  <project path="packages/apps/OmniSwitch" name="ukhellfire/packages_apps_OmniSwitch" remote="ukhellfire" />
-  <project path="packages/apps/Settings" name="ukhellfire/packages_apps_Settings" groups="pdk-fs" remote="ukhellfire" />
-  <project path="packages/apps/SetupWizard" name="ukhellfire/packages_apps_SetupWizard" remote="ukhellfire" />
-  <project path="packages/services/Telephony" name="ukhellfire/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
-  <project path="packages/services/Telecomm" name="ukhellfire/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="ukhellfire" />
-  <project path="system/core" name="ukhellfire/system_core" groups="pdk" remote="ukhellfire" />
-  <project path="vendor/aicp" name="ukhellfire/vendor_aicp" remote="ukhellfire" />
-  <project path="vendor/cmsdk" name="ukhellfire/vendor_cmsdk" remote="ukhellfire" />
+  <project path="frameworks/opt/telephony" name="ukhellfire/frameworks_opt_telephony" groups="pdk" />
+  <project path="platform_manifest" name="ukhellfire/platform_manifest" />
+  <project path="packages/apps/AICP_OTA" name="ukhellfire/packages_apps_AICP_OTA" />
+  <project path="packages/apps/AicpExtras" name="ukhellfire/packages_apps_AicpExtras" />
+  <project path="packages/apps/Dialer" name="ukhellfire/packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/DUI" name="ukhellfire/packages_apps_DUI" />
+  <project path="packages/apps/InCallUI" name="ukhellfire/packages_apps_InCallUI" groups="pdk-fs" />
+  <project path="packages/apps/LockClock" name="ukhellfire/packages_apps_LockClock" />
+  <project path="packages/apps/Nfc" name="ukhellfire/packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/OmniSwitch" name="ukhellfire/packages_apps_OmniSwitch" />
+  <project path="packages/apps/Settings" name="ukhellfire/packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="ukhellfire/packages_apps_SetupWizard" />
+  <project path="packages/services/Telephony" name="ukhellfire/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="ukhellfire/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/core" name="ukhellfire/system_core" groups="pdk" />
+  <project path="vendor/aicp" name="ukhellfire/vendor_aicp" />
+  <project path="vendor/cmsdk" name="ukhellfire/vendor_cmsdk" />
   <!-- END AICP -->
 
   <!-- BEGIN AOSP -->
@@ -555,8 +555,8 @@
   <!-- END AOSP -->
   
   <!-- DEVICE FILES -->
-  <project path="device/huawei/g750t01" name="ukhellfire/device_huawei_g750t01" remote="ukhellfire" />
-  <project path="vendor/huawei/g750t01" name="ukhellfire/vendor_huawei_g750t01" remote="ukhellfire" />
+  <project path="device/huawei/g750t01" name="ukhellfire/device_huawei_g750t01" />
+  <project path="vendor/huawei/g750t01" name="ukhellfire/vendor_huawei_g750t01" />
   <!-- END DEVICE FILES -->
 
 </manifest>
