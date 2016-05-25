@@ -292,7 +292,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
 
   <!-- AICP custom -->
-  <project path="build" name="ukhellfire/build" remote"ukhellfire"  >
+  <project path="build" name="ukhellfire/build" remote"ukhellfire"/>
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/qcom/sepolicy" name="ukhellfire/device_qcom_sepolicy" remote"ukhellfire" />
