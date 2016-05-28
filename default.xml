@@ -18,7 +18,8 @@
            revision="cm-13.0" />  
            
   <remote name="ukhellfire"
-           fetch="https://github.com/" />          
+           fetch="https://github.com/"
+		   revision="mm6.0" />	
 
   <remote  name="cm"
            fetch="https://github.com/"
