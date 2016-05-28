@@ -14,11 +14,11 @@
            revision="mm6.0" />
            
   <remote name="afaulkner420"
-           fetch="https://github.com/afaulkner420/"
+           fetch="https://github.com/"
            revision="cm-13.0" />  
            
   <remote name="ukhellfire"
-           fetch="https://github.com/ukhellfire/"
+           fetch="https://github.com/"
 		   revision="mm6.0" />	
 
   <remote  name="cm"
