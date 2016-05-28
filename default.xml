@@ -48,10 +48,10 @@
            sync-c="true"
            sync-j="4" />-->
            
-  <default revision="refs/heads/mm6.0"
+  <!--<default revision="refs/heads/mm6.0"
            remote="ukhellfire"
            sync-c="true"
-           sync-j="4" />           
+           sync-j="4" />-->           
 
 <!-- BEGIN AICP -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
