@@ -7,11 +7,7 @@
 		   revision="refs/tags/android-6.0.1_r43" />
 
   <remote name="github"
-           fetch="https://github.com/" />
-           
-  <remote name="afaulkner420"
-           fetch="https://github.com/"
-           revision="cm-13.0" />  
+           fetch="https://github.com/" /> 
            
   <remote name="ukhellfiremm6"
            fetch="https://github.com/"
@@ -23,7 +19,7 @@
 
   <remote name="ukhellfirecm13"
            fetch="https://github.com/"
-		   revision="cm13.0" />		   
+		   revision="cm-13.0" />		   
 		   
   <remote  name="cm"
            fetch="https://github.com/"
