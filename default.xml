@@ -42,16 +42,7 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
-           
-  <!--<default revision="refs/heads/cm-13.0"
-           remote="afaulkner420"
-           sync-c="true"
-           sync-j="4" />-->
-           
-  <!--<default revision="refs/heads/mm6.0"
-           remote="ukhellfire"
-           sync-c="true"
-           sync-j="4" />-->           
+                     
 
 <!-- BEGIN AICP -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
