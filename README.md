@@ -33,7 +33,7 @@ After the sync is finished,
 
     source build/envsetup.sh
 
-    brunch cm_g750t01-userdebug
+    brunch aicp_g750t01-userdebug
 
 
 Remember to `make clobber` every now and then!
